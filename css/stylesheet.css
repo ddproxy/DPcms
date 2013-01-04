@@ -1,0 +1,166 @@
+body {
+	height: 100%;
+	width: auto;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+a img {
+	border: none;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+iframe {
+	display: block;
+	margin-left: 25%;
+}
+textarea {
+	width: 900px;
+	height: 200px;
+}
+.admin .edit label {
+	float:left;
+	min-width: 100px;
+	text-align:right;
+	font-weight: bold;
+}
+.admin .edit input {
+	min-width: 200px;
+	display: block;
+}
+#menu {
+	height: 600px;
+	width: 170px;
+	position: relative;
+	display: inline-block;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+#menu-block {
+	-webkit-border-radius: 0 100px 100px 0 / 0 200px 200px 0;
+	-moz-border-radius: 0 100px 100px 0 / 0 200px 200px 0; 
+	border-radius: 0 100px 100px 0 / 0 200px 200px 0;
+	border-right: medium solid black;
+	height: 400px;
+	text-align: right;
+	margin:0;
+	padding:0;
+	position: relative;
+}
+#menu-block li a{
+	color:black;
+	font-size: 25px;
+	text-decoration: none;
+}
+#menu-block li:nth-child(1) {
+	padding-right: 50px;
+	padding-top: 25px;
+}
+#menu-block li:nth-child(2) {
+	padding-right: 35px;
+}
+#menu-block li:nth-child(3) {
+	padding-right: 25px;
+}
+#menu-block li:nth-child(4) {
+	padding-right: 15px;
+}
+#menu-block li:nth-child(5) {
+	padding-right: 10px;
+}
+#node-menu  li {
+	display: inline-block;
+	padding: 5px;
+}
+#body {
+	width: 900px;
+	display: inline-block;
+	position: relative;
+	padding: 5px;
+}
+#body #header {
+	height: 100px;
+	width: 900px;
+	display: block;
+}
+#body #header #header-content h1 {
+	display: inline-block;
+}
+#body #header #submenu {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+#body #content {
+	float: left;
+	width: 600px;
+}
+#footer {
+	display: block;
+	position: relative;
+	width: 900px;
+	margin-left: auto;
+	margin-right:auto;
+	float: left;
+}
+#footer ul {
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+#footer li {
+	display: inline-block;
+	padding: 5px;
+}
+#footer li:before {
+	content:"|";
+	padding-right: 7px;
+}
+#login {
+	background: none repeat scroll 0 0 #FFF;
+	border: 1px solid #C3C3C3;
+	display: inline-block;
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+	width: 220px;
+	float: right;
+	position: relative;
+	z-index: 5;
+}
+.node {
+	background: #FFF;
+}
+.websites a {
+}
+.websites div.screen {
+	width: 180px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	padding:0;
+	margin:0;
+	float: left;
+}
+.websites a img.screen {
+	width:128px;
+}
+.fancybox-opened div{
+	padding:0;
+	margin:0;
+}
+#logo {
+	padding: 10px;
+}
+.required {
+	color: red;
+}
+.required:before {
+	content:"* ";
+}
