@@ -1,0 +1,12 @@
+Digital Design Proxy Content Managment System
+
+Basic structure,
+	_Class 	- Loaded on demand, must be instanciated
+	i		- images
+	l		- Libraries
+		jquery.js
+	modules - Loaded on demand from dpcms _class using URL to call and send commands to module
+	s		- CSS
+	settings- Settings files
+		config.ini - Duplicate default.config.ini and fill in blanks
+		default.config.ini - default config structure

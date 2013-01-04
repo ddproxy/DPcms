@@ -1,0 +1,57 @@
+body {
+	background-color:#F8F8F8;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+article {
+	margin: 0 0 0 20px;
+}
+div {
+	margin: 10px;
+	padding:5px;
+
+}
+#body-wrapper {
+	width:900px;
+	margin: auto;
+	background-color:#FFFFFF;
+}
+#title {
+	display:inline-block;
+	vertical-align: top;
+	width: 600px;
+}
+#login {
+	display:inline-block;
+	width: 220px;
+	margin:auto;
+	padding:5px;
+	text-align:center;
+	background:#e5eecc;
+	border:solid 1px #c3c3c3;
+}
+#login_form {
+	height:120px;
+	display:none;
+}
+
+div.border {
+	border-radius: 10px;
+	border: 1px solid #E1E1E1;
+}
+label {
+	display:block;
+}
+
+
+#fail {
+	margin: 0;
+	padding: 5px;
+	background-color: salmon;
+	box-shadow: 2px 2px 2px;
+
+}
+#dev_data {
+	background-color: salmon;
+}
