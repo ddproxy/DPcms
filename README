@@ -1,7 +1,14 @@
-Digital Design Proxy Content Managment System
+Digital Design Proxy - Content Managment System
 
 Basic structure,
-	_Class 	- Loaded on demand, must be instanciated
+	_Class 	- Loaded on demand, must be instanciated by modules or index
+		common.php - Common functions
+		content.php - Basic content class
+		display.php - Should be converted to bootstraper and check for login-status before printing debugging information
+		dpcms.php	- Main class, calls modules on demand and stores $SQL object
+		login.php	- Basic login - creates session ID and clears password
+		mysql.php	- Basic mysql class - contains first-run SQL statements and basic fetch and insert commands
+		
 	i		- images
 	l		- Libraries
 		jquery.js
